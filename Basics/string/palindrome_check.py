@@ -7,3 +7,11 @@ for i in range(len(s)//2):
         break
 else:
     print('yes')
+
+#################pythonic way####################
+s=input()
+
+if s==s[::-1]:
+    print('yes')
+else:
+    print('no')
